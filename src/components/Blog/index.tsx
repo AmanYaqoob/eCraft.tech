@@ -1,5 +1,7 @@
 import SectionTitle from "../Common/SectionTitle";
 import { InteractiveHoverButton } from "../ui/interactive-hover-button";
+import blogData from "@/static/blogData";
+import SingleBlog from "./SingleBlog";
 
 const Blog = () => {
   return (

@@ -140,6 +140,90 @@ function ServicesPage() {
       idealFor: "Resellers, liquidation specialists, and businesses looking to tap into eBay's diverse customer base and auction opportunities."
     },
     {
+      title: "Walmart Marketplace Management",
+      subtitle: "Retail Giant Growth",
+      image: "/images/logo/walmart-ar21~bgwhite.svg",
+      shortDescription: "Tap into America's largest retailer online marketplace with professional account management that maximizes visibility and sales on Walmart.com.",
+      fullDescription: "Tap into America's largest retailer online marketplace with professional account management that maximizes visibility and sales on Walmart.com.",
+      services: [
+        {
+          name: "Account Setup & Optimization",
+          description: "Complete seller registration, category approval, storefront branding, and profile optimization to meet Walmart's high seller standards."
+        },
+        {
+          name: "Product Listing Management",
+          description: "Walmart-compliant listings with rich product content, competitive pricing strategy, variant management, and Buy Box optimization."
+        },
+        {
+          name: "Inventory Synchronization",
+          description: "Real-time inventory tracking across multiple channels, stock level management, replenishment alerts, and fulfillment coordination (WFS or seller-fulfilled)."
+        },
+        {
+          name: "Walmart Connect Advertising",
+          description: "Strategic sponsored product campaigns, display ads, and search placement optimization to increase product visibility and drive conversions."
+        },
+        {
+          name: "Pricing & Competition Strategy",
+          description: "Dynamic pricing adjustments based on competitor analysis, Buy Box winning strategies, and profit margin protection."
+        },
+        {
+          name: "Performance Monitoring",
+          description: "Order defect rate tracking, on-time shipping compliance, customer service metrics, and seller scorecard optimization."
+        },
+        {
+          name: "Growth Opportunities",
+          description: "Walmart+ program participation, seasonal promotions, clearance strategies, and category expansion recommendations."
+        },
+        {
+          name: "Customer Service Management",
+          description: "Order processing, returns handling, customer inquiries, and dispute resolution to maintain excellent seller ratings."
+        }
+      ],
+      idealFor: "Established brands and retailers looking to expand their reach through America's largest retailer and compete in the growing Walmart marketplace."
+    },
+    {
+      title: "Full-Stack Web Development",
+      subtitle: "End-to-End Solutions",
+      image: "https://cdni.iconscout.com/illustration/premium/thumb/full-stack-developer-illustration-svg-download-png-4051527.png",
+      shortDescription: "Build powerful, scalable web applications with our comprehensive full-stack development services. We handle everything from frontend user interfaces to backend architecture and database design.",
+      fullDescription: "Build powerful, scalable web applications with our comprehensive full-stack development services. We handle everything from frontend user interfaces to backend architecture and database design.",
+      services: [
+        {
+          name: "Frontend Development",
+          description: "Modern, responsive interfaces built with React, Next.js, and TypeScript. Component-based architecture, state management with Redux or Context API, responsive design with Tailwind CSS, and seamless user experiences with Framer Motion animations."
+        },
+        {
+          name: "Backend Development",
+          description: "Robust server-side applications using Node.js, Express, and RESTful API design. Secure authentication and authorization systems, efficient data handling and validation, real-time functionality with WebSockets, and scalable microservices architecture."
+        },
+        {
+          name: "Database Design & Management",
+          description: "Strategic database architecture with MongoDB, PostgreSQL, or MySQL. Data modeling and schema design, query optimization for performance, automated backups and disaster recovery, and database migration and version control."
+        },
+        {
+          name: "API Development & Integration",
+          description: "Custom RESTful and GraphQL APIs designed for scalability. Third-party API integrations (payment gateways, shipping providers, social media), API documentation with Swagger/OpenAPI, rate limiting and security implementation, and webhook integration for real-time updates."
+        },
+        {
+          name: "Cloud Deployment & DevOps",
+          description: "Production-ready deployment on AWS, Vercel, or DigitalOcean. CI/CD pipeline setup with GitHub Actions or Jenkins, Docker containerization for consistency, load balancing and auto-scaling configuration, and monitoring and logging with error tracking."
+        },
+        {
+          name: "Performance Optimization",
+          description: "Lightning-fast load times and optimal user experience. Code splitting and lazy loading implementation, image optimization and CDN integration, caching strategies for improved performance, database query optimization, and Core Web Vitals optimization for SEO."
+        },
+        {
+          name: "Security Implementation",
+          description: "Enterprise-grade security measures to protect your data. SSL/TLS encryption and HTTPS enforcement, input validation and sanitization, protection against SQL injection and XSS attacks, secure session management and JWT authentication, and GDPR and data privacy compliance."
+        },
+        {
+          name: "Testing & Quality Assurance",
+          description: "Comprehensive testing to ensure reliability and performance. Unit testing with Jest and React Testing Library, integration testing for API endpoints, end-to-end testing with Cypress or Playwright, performance testing and load testing, and automated testing in CI/CD pipeline."
+        }
+      ],
+      idealFor: "Startups needing MVPs, businesses requiring custom solutions, e-commerce brands, SaaS companies, and enterprises modernizing legacy systems."
+    },
+    {
       title: "Forex Trading Education",
       subtitle: "Trade Smarter, Not Harder: Master Forex and Get Funded—Your Capital is $0, Your Risk is Zero.",
       image: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiB2aWV3Qm94PSIwIDAgMjAwIDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiBmaWxsPSIjMjJDNTVFIiByeD0iMTAiLz4KPHN2ZyB4PSIyMCIgeT0iMjAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjRkZGRkZGIj4KPHBhdGggZD0iTTE2IDZMMTAuNSAxMkwxNiAxOFYxNUgyMVY5SDE2VjZaTTggMThWMTVIM1Y5SDhWNkwyLjUgMTJMOCAxOFoiLz4KPC9zdmc+Cjx0ZXh0IHg9IjgwIiB5PSI0NSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI0ZGRkZGRiI+Rm9yZXggVHJhZGluZzwvdGV4dD4KPC9zdmc+",

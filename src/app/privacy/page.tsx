@@ -130,6 +130,5 @@ const PrivacyPage = () => {
       </section>
     </div>
   );
-};
-
+};  
 export default PrivacyPage;

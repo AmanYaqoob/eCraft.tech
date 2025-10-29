@@ -175,7 +175,7 @@ const CoursesPage = () => {
       </section>
 
       {/* Meet Our Expert Instructors Section */}
-      <section className="mt-20 py-16">
+      <section id="instructors" className="mt-20 py-16">
         <div className="container mx-auto px-5">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             {/* Left Content */}

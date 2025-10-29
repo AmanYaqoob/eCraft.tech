@@ -15,7 +15,7 @@ const Hero = () => {
         
         <div className="container relative z-50 flex items-center justify-center">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
+            <div className="w-full px-4 pt-5">
               <div className="mx-auto max-w-[900px] text-center">
                 <h1 className="mb-5 text-5xl font-bold leading-tight text-white sm:text-6xl sm:leading-tight md:text-7xl md:leading-tight">
                   {HeroData.title}

@@ -54,7 +54,7 @@ const Header = () => {
               <Link
                 href="/"
                 className={`header-logo block w-full ${
-                  sticky ? "py-3 lg:py-2" : "py-5"
+                  sticky ? "" : ""
                 } `}
               >
                 <Image
@@ -158,7 +158,7 @@ const Header = () => {
                     ))}
                   </ul>
                   {/* Add Courses Button */}
-                  <div className="mt-4 border-t border-gray-300 pt-4 dark:border-gray-700 lg:hidden">
+                  <div className="mt-4 border-t border-gray-300 dark:border-gray-700 lg:hidden">
                     <InteractiveHoverButton
                       className="block w-full px-4 py-2 text-center [&>div]:!bg-blue-600 [&>div]:!border-blue-600 [&>div>span]:!text-white [&>div>div:last-child]:!bg-blue-600"
                       link="/courses"

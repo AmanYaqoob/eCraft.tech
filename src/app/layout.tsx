@@ -10,20 +10,20 @@ export const metadata: Metadata = {
     default: "eCraft°",
   },
   description:
-    "Transform your business with advanced IoT solutions, AI-powered tools, and tailored SaaS products like HRM, HMS, CRM, ERP, and CMS. Based in Nalloorkonam, Arumanai, Kanyakumari, Tamil Nadu, India, we deliver innovative tech solutions globally. Leverage our EdgeTeam for dedicated tech experts and OAAS for end-to-end operational support. Partner with the best AI, IoT, and software solution providers to enhance business efficiency and achieve seamless growth",
+    "We are a full-service e-commerce agency that specializes in multi-platform marketplace management and growth optimization. Our mission is to empower online sellers by handling every aspect of e-commerce operations across all major marketplaces.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
   },
-  metadataBase: new URL("https://eCraft.in"),
+  metadataBase: new URL("https://eCraft.tech"),
   openGraph: {
     type: "website",
-    url: "https://eCraft.in",
-    title: "AarbhitX",
+    url: "https://eCraft.tech",
+    title: "eCraft°",
     description:
-      "AI solutions for streamlined operations, enhanced decisions, and scalable growth. We unlock your full potential with intelligent automation and data-driven insights",
-    siteName: "AarbhitX",
+      "We are a full-service e-commerce agency that specializes in multi-platform marketplace management and growth optimization. Our mission is to empower online sellers by handling every aspect of e-commerce operations across all major marketplaces.",
+    siteName: "eCraft°",
     images: [
       {
         url: "https://k0wq6pnnph6kt8et.public.blob.vercel-storage.com/eCraft/eCraft_meta_images-DeG1eHIDn5ppeJXCaQgZV6zOPzRaqX.png",
@@ -56,6 +56,5 @@ export default function RootLayout({
     </html>
   );
 }
-
 import { Providers } from "./providers";
 import { Metadata } from "next";

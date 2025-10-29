@@ -341,7 +341,28 @@ const Hyperspeed = ({
     };
 
     class App {
-      constructor(container, options = {}) {
+      options: any;
+      container: any;
+      renderer: any;
+      composer: any;
+      camera: any;
+      scene: any;
+      fogUniforms: any;
+      clock: any;
+      assets: any;
+      disposed: boolean;
+      road: any;
+      leftCarLights: any;
+      rightCarLights: any;
+      leftSticks: any;
+      fovTarget: any;
+      speedUpTarget: any;
+      speedUp: any;
+      timeOffset: any;
+      renderPass: any;
+      bloomPass: any;
+      
+      constructor(container, options: any = {}) {
         this.options = options;
         if (this.options.distortion == null) {
           this.options.distortion = {
@@ -360,7 +381,7 @@ const Hyperspeed = ({
         container.append(this.renderer.domElement);
 
         this.camera = new THREE.PerspectiveCamera(
-          options.fov,
+          options.fov || 90,
           container.offsetWidth / container.offsetHeight,
           0.1,
           10000
@@ -441,9 +462,7 @@ const Hyperspeed = ({
         const smaaPass = new EffectPass(
           this.camera,
           new SMAAEffect({
-            preset: SMAAPreset.MEDIUM,
-            searchImage: SMAAEffect.searchImageDataURL,
-            areaImage: SMAAEffect.areaImageDataURL
+            preset: SMAAPreset.MEDIUM
           })
         );
         this.renderPass.renderToScreen = false;
@@ -665,7 +684,14 @@ const Hyperspeed = ({
     }
 
     class CarLights {
-      constructor(webgl, options, colors, speed, fade) {
+      webgl: any;
+      options: any;
+      colors: any;
+      speed: any;
+      fade: any;
+      mesh: any;
+      
+      constructor(webgl: any, options: any, colors: any, speed: any, fade: any) {
         this.webgl = webgl;
         this.options = options;
         this.colors = colors;
@@ -823,7 +849,11 @@ const Hyperspeed = ({
     `;
 
     class LightsSticks {
-      constructor(webgl, options) {
+      webgl: any;
+      options: any;
+      mesh: any;
+      
+      constructor(webgl: any, options: any) {
         this.webgl = webgl;
         this.options = options;
       }
@@ -949,7 +979,14 @@ const Hyperspeed = ({
     `;
 
     class Road {
-      constructor(webgl, options) {
+      webgl: any;
+      options: any;
+      uTime: any;
+      leftRoadWay: any;
+      rightRoadWay: any;
+      island: any;
+      
+      constructor(webgl: any, options: any) {
         this.webgl = webgl;
         this.options = options;
         this.uTime = { value: 0 };

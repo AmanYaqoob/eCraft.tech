@@ -147,8 +147,73 @@ const AboutPage = () => {
             step2img2: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1674&auto=format&fit=crop",
             step3img: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1740&auto=format&fit=crop",
             step4img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1742&auto=format&fit=crop",
-            step5img: "/images/about/Certicate.png",
+            step5img: "/images/about/certificate.png",
           }} />
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-black dark:text-white mb-4">
+              Our Team
+            </h2>
+            <p className="text-body-color dark:text-body-color-dark max-w-2xl mx-auto">
+              Meet the experts behind eCraft.tech
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <motion.div
+              initial={{ y: 20, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              whileHover={{ scale: 1.05 }}
+              className="bg-white dark:bg-gray-dark rounded-xl p-8 text-center shadow-lg hover:shadow-2xl hover:shadow-primary/20 transition-all duration-300"
+            >
+              <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden">
+                <Image
+                  src="/images/about/Abdullah.png"
+                  alt="Mirza Muhammad Abdullah Baig"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-black dark:text-white mb-2">
+                Mirza Muhammad Abdullah Baig
+              </h3>
+              <p className="text-primary font-semibold mb-4">Founder & CEO</p>
+              <p className="text-body-color dark:text-body-color-dark">
+                Visionary leader with 5+ years of e-commerce expertise, driving strategic growth and innovation.
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ y: 20, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              whileHover={{ scale: 1.05 }}
+              className="bg-white dark:bg-gray-dark rounded-xl p-8 text-center shadow-lg hover:shadow-2xl hover:shadow-secondary/20 transition-all duration-300"
+            >
+              <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden">
+                <Image
+                  src="/images/about/CTO.jpeg"
+                  alt="Muhammad Amman Yaqoob"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-black dark:text-white mb-2">
+                Muhammad Amman Yaqoob
+              </h3>
+              <p className="text-primary font-semibold mb-4">Chief Technology Officer</p>
+              <p className="text-body-color dark:text-body-color-dark">
+                Technical architect leading development and innovation with cutting-edge solutions.
+              </p>
+            </motion.div>
+          </div>
         </div>
       </section>
 

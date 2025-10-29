@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://eCraft.in/sitemap.xml",
+    sitemap: "https://ecraft.tech/sitemap.xml",
   };
 }
