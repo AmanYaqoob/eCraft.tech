@@ -8,7 +8,8 @@ const Brands = () => {
     { name: "TikTok", logo: "/images/brands/brandbird-TikTok-logotype.svg" },
     { name: "Etsy", logo: "/images/brands/brandbird-Etsy-logotype.svg" },
     { name: "eBay", logo: "/images/brands/brandbird-eBay-logotype.svg" },
-    { name: "Amazon", logo: "/images/brands/brandbird-Amazon-logotype.svg" }
+    { name: "Amazon", logo: "/images/brands/brandbird-Amazon-logotype.svg" },
+    { name: "Walmart", logo: "/images/logo/walmart-ar21~bgwhite.svg" }
   ];
 
   return (

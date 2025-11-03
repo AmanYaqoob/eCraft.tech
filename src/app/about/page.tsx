@@ -213,6 +213,56 @@ const AboutPage = () => {
                 Technical architect leading development and innovation with cutting-edge solutions.
               </p>
             </motion.div>
+            <motion.div
+              initial={{ y: 20, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              whileHover={{ scale: 1.05 }}
+              className="bg-white dark:bg-gray-dark rounded-xl p-8 text-center shadow-lg hover:shadow-2xl hover:shadow-primary/20 transition-all duration-300"
+            >
+              <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden">
+                <Image
+                  src="/images/about/Mohsin.png"
+                  alt="Mohsin Mehboob"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-black dark:text-white mb-2">
+                Mohsin Mehboob
+              </h3>
+              <p className="text-primary font-semibold mb-4">Forex Trader</p>
+              <p className="text-body-color dark:text-body-color-dark">
+                Expert forex trader with proven strategies and consistent performance in global markets.
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ y: 20, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              whileHover={{ scale: 1.05 }}
+              className="bg-white dark:bg-gray-dark rounded-xl p-8 text-center shadow-lg hover:shadow-2xl hover:shadow-secondary/20 transition-all duration-300"
+            >
+              <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden">
+                <Image
+                  src="/images/about/Hamza Khan.jpg"
+                  alt="Hamza Khan"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-black dark:text-white mb-2">
+                Hamza Khan
+              </h3>
+              <p className="text-primary font-semibold mb-4">Marketing Head</p>
+              <p className="text-body-color dark:text-body-color-dark">
+                Strategic marketing leader driving brand growth and customer acquisition across digital channels.
+              </p>
+            </motion.div>
           </div>
         </div>
       </section>

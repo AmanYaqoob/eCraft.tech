@@ -43,6 +43,13 @@ const brandsData: Brand[] = [
     image: "/images/brands/plainadmin.svg",
     imageLight: "/images/brands/plainadmin-light.svg",
   },
+  {
+    id: 7,
+    name: "Walmart",
+    href: "https://walmart.com",
+    image: "/images/logo/walmart-ar21~bgwhite.svg",
+    imageLight: "/images/logo/walmart-ar21~bgwhite.svg",
+  },
 ];
 
 export default brandsData;

@@ -182,6 +182,40 @@ function ServicesPage() {
       idealFor: "Established brands and retailers looking to expand their reach through America's largest retailer and compete in the growing Walmart marketplace."
     },
     {
+      title: "Strategic Marketing & Brand Building",
+      subtitle: "Marketing Strategy & Brand Development",
+      image: "/images/about/marketing.jpg",
+      shortDescription: "Develop powerful marketing strategies and build memorable brands that resonate with your target audience. From brand positioning to digital marketing campaigns, we create cohesive strategies that drive business growth and customer engagement.",
+      fullDescription: "Develop powerful marketing strategies and build memorable brands that resonate with your target audience. From brand positioning to digital marketing campaigns, we create cohesive strategies that drive business growth and customer engagement.",
+      services: [
+        {
+          name: "Brand Strategy & Positioning",
+          description: "Define your unique market position and brand identity. Brand purpose and values definition, target audience research and personas, competitive analysis and differentiation, brand positioning statement development, unique value proposition (UVP) creation, brand architecture for product lines, and brand messaging framework."
+        },
+        {
+          name: "Brand Identity Development",
+          description: "Create a visual and verbal identity that stands out. Brand name development and testing, logo and visual identity design direction, brand color palette and typography, brand voice and tone guidelines, tagline and slogan development, brand style guide creation, and brand story and narrative development."
+        },
+        {
+          name: "Marketing Strategy Planning",
+          description: "Comprehensive plans to reach and convert your audience. Market research and opportunity analysis, marketing objectives and KPIs, customer journey mapping, multi-channel marketing mix strategy, budget allocation and ROI planning, campaign calendar and timeline, and competitive positioning strategy."
+        },
+        {
+          name: "Digital Marketing Strategy",
+          description: "Online presence optimization for maximum impact. Website strategy and user experience, search engine optimization (SEO) strategy, content marketing and blog strategy, social media marketing plan, email marketing campaigns, paid advertising strategy (PPC, social ads), and marketing automation implementation."
+        },
+        {
+          name: "Content Marketing",
+          description: "Engaging content that attracts and converts customers. Content strategy and editorial calendar, blog post and article development, case study and white paper creation, video content strategy, infographic and visual content, social media content creation, and thought leadership content."
+        },
+        {
+          name: "Marketing Analytics & Performance Tracking",
+          description: "Data-driven insights to optimize campaigns. Marketing KPI dashboard development, campaign performance analysis, customer acquisition cost (CAC) tracking, ROI measurement and reporting, A/B testing and optimization, conversion funnel analysis, and monthly performance reports with recommendations."
+        }
+      ],
+      idealFor: "Startups establishing their brand, businesses rebranding, companies entering new markets, organizations lacking marketing expertise, and brands seeking growth acceleration."
+    },
+    {
       title: "Full-Stack Web Development",
       subtitle: "End-to-End Solutions",
       image: "https://cdni.iconscout.com/illustration/premium/thumb/full-stack-developer-illustration-svg-download-png-4051527.png",
